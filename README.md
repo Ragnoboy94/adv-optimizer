@@ -24,8 +24,8 @@
 git clone https://github.com/ragnoboy94/adv-optimizer.git
 cd adv-optimizer
 
-Copy-Item .env.example .env
-# правим .env (важные строки):
+
+# правим .env:
 # APP_URL=http://127.0.0.1:7080
 # DB_CONNECTION=pgsql
 # DB_HOST=pg
