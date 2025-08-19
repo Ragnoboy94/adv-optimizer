@@ -25,7 +25,8 @@ git clone https://github.com/ragnoboy94/adv-optimizer.git
 cd adv-optimizer
 
 
-# правим .env:
+# Копируем .env.example и вставляем его как .env
+# Правим .env:
 # APP_URL=http://127.0.0.1:7080
 # DB_CONNECTION=pgsql
 # DB_HOST=pg
