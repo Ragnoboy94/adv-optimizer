@@ -40,6 +40,10 @@ cd adv-optimizer
 
 docker compose build php scheduler
 docker compose up -d pg php web node
+
+docker compose exec php composer install --no-interaction --prefer-dist
+docker compose run --rm node npm install 
+
 docker compose exec php php artisan key:generate
 docker compose exec php php artisan migrate --force
 docker compose exec php php artisan db:seed --force
